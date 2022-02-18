@@ -1,0 +1,4 @@
+curl -k -s --user $NSXUSER:$NSXPASS \
+-H "Content-Type: application/json" \
+-X GET https://$NSX/policy/api/v1/infra/segments \
+| grep '"display_name"\|"gateway_address"'
