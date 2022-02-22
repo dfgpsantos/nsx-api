@@ -8,4 +8,4 @@ export NSX=192.168.100.100
 
 some scripts requires variables
 
-these scripts use curl to make the api calls
+these scripts use curl to call NSX's API
