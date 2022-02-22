@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [[ -z $1 ]]
+then
+echo "You must specify the T1's name eg. 'sh delete_t1.sh t1-test'"
+exit 0
+fi
+
 echo "Do you realy want to DELETE Tier-1 Gateway $1"
 read -p "Y/N" -n 1 -r CHOICE
 
